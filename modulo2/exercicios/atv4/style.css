@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ecd1b7;
+}
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font: normal bold 2em;
+    color: #409449;
+}
+h2#id{
+    background-color: rgba(255, 144, 144, 0.5);
+}
+h2#class {
+    background-color: rgba(144, 255, 144, 0.5);
+}
+h2#pseudoClass {
+    background-color: rgba(144, 144, 255, 0.5);
+}
+h2#pseudoElement {
+    background-color: rgba(255, 255, 64, 0.5);
+}
+p {
+    font: normal normal 1em Georgia, 'Times New Roman', Times, serif ;
+    text-align: justify;
+    text-indent: 16px;
+}
+p.class {
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px rgba(144, 255, 144, 0.5);
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ecd1b7;
+}
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font: normal bolder 3em;
+    color: #34783C;
+    text-align: center;
+}
+h2 {
+    font: normal bold 2em;
+    color: #409449;
+}
+p {
+    font: normal normal 1em Georgia, 'Times New Roman', Times, serif ;
+    text-align: justify;    
+}
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+    color: darkblue;
+}
+a:active {
+    color: red;
+}
+.main::before {
+    content: '￫';
+}
+.main::after {
+    content: ' ￩';
+}
