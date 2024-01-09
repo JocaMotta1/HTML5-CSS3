@@ -1,18 +1,36 @@
 @charset "UTF-8";
 
-body {
-    font-size: 18px;
+@font-face {
+    font-family: 'Krona One';
+    src: url('fontes/KronaOne-Regular.ttf') format('truetype');
 }
-h1, h2 {
-    font-family: Arial, Helvetica, sans-serif;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fontes/Montserrat-Regular.ttf') format('truetype');
+}
+
+body, mark {
+    background-color: #000000;
+}
+main {
+    height: 480px;
+    width: 610px;
+    position: relative;
+    top: 100px;
+    left: 350px;
 }
 h1 {
-    font-size: 1.5em;
+    font: normal 30px 'Krona One', Arial, sans-serif;
+    line-height: 50px;
+    color: #f6f6f6;
 }
-h2 {
-    font-size: 1.25em;
+mark {
+    color: #22D4FD;
 }
 p {
-    font-family: "Times New Roman", Times, serif;
-    text-align: justify;
+    font: normal 20px 'Montserrat', 'Times New Roman', serif;
+    line-height: 30px;
+    color: #f6f6f6;
+    padding: 5px 0;
 }
