@@ -23,6 +23,8 @@ main {
 h1 {
     font: normal 30px 'Krona One', Arial, sans-serif;
     line-height: 50px;
+}
+h1, p {
     color: #f6f6f6;
 }
 mark {
@@ -31,6 +33,5 @@ mark {
 p {
     font: normal 20px 'Montserrat', 'Times New Roman', serif;
     line-height: 30px;
-    color: #f6f6f6;
     padding: 5px 0;
 }
