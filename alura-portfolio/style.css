@@ -17,33 +17,31 @@ main {
     left: 200px;
 }
 h1 {
-    font: normal 30px 'Krona One', Arial, sans-serif;
+    font-size: 30px;
+    font-family: 'Krona One', Arial, sans-serif;
     line-height: 50px;
 }
 mark {
     color: #22D4FD;
 }
 p {
-    font: normal 20px 'Montserrat', 'Times New Roman', serif;
+    font-size: 20px;
     line-height: 30px;
     padding: 5px 0;
 }
 div {
     height: 80px;
     width: 230px;
-    border-radius: 10px;
     background-color: #22D4FD;  
 }
 a {
-    font-family: 'Montserrat', 'Times New Roman', serif;
     font-weight: bold;
     text-decoration: none;
-    color: black;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: .5s;
+    color: black;
 }
 a:active {
     color: blue;
@@ -52,22 +50,31 @@ a:hover {
     text-decoration: underline;
 }
 img {
-    position: absolute;
-    top: 0px;
     left: 650px;
-    border-radius: 10px;
 }
 body, mark {
     background-color: black;
 }
 h1, p {
+    font-weight: normal;
     color: #f6f6f6;
+}
+a, p {
+    font-family: 'Montserrat', 'Times New Roman', serif;
+}
+a, img {
+    position: absolute;
 }
 main, div {
     position: relative;
 }
-#linkLinkedin {
+img, div {
+    border-radius: 10px;
+}
+img, #linkLinkedin {
     top: 0px;
+}
+#linkLinkedin {
     left: 25px;
 }
 #linkGithub {
