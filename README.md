@@ -11,5 +11,5 @@ Boas vindas ao meu repositório de HTML5/CSS3. Aqui você poderá acessar alguns
 <a href = "https://jocamotta1.github.io/HTML5-CSS3/modulo1/desafio008" target = "_blank">Clique aqui para ver o desafio da navegação entre páginas.<br>
 <a href = "https://jocamotta1.github.io/HTML5-CSS3/modulo1/desafio009" target = "_blank">Clique aqui para ver o desafio da navegação entre páginas com thumbs de vídeos para assistir.<br>
 <a href = "https://jocamotta1.github.io/HTML5-CSS3/modulo2/desafios/desafio011" target = "_blank">Clique aqui para ver o desafio do astronauta.<br>
-<a href = "https://jocamotta1.github.io/HTML5-CSS3/modulo2/desafios/desafio010" target = "_blank">Clique aqui para ver o desafio do site do android.
+<a href = "https://jocamotta1.github.io/HTML5-CSS3/modulo2/desafios/desafio010" target = "_blank">Clique aqui para ver o desafio do site do android.<br>
 <a href = "https://jocamotta1.github.io/HTML5-CSS3/alura-portfolio" target = "_blank">Clique aqui para ver um mini-projeto de um portfólio.
